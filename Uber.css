@@ -1,0 +1,796 @@
+*{
+    margin:0px;
+}
+.navbar{
+    height:64px;
+    background-color: #000000;
+    width:100%;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+.logo{
+    height:54px;
+    width:120px;
+    background-image: url(uber-new-logo\ \(2\).jpg);
+    background-size:cover;
+    margin-left: 64px;
+}
+.ride{
+    height:34px;
+    width:58px;
+    background-color:transparent;
+    color: white;
+    border-radius: 17px;
+    font-weight: 600;
+    border: none;
+    margin-left: 12px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #353434;
+}
+.drive{
+    height:34px;
+    width:58px;
+    background-color:transparent;
+    color: white;
+    border-radius: 17px;
+    border: none;
+    margin-left:px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.business{
+    height:34px;
+    width:83px;
+    background-color:transparent;
+    color: white;
+    border-radius: 17px;
+    border: none;
+    margin-left:-2px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.about{
+    height:34px;
+    width:90px;
+    background-color:transparent;
+    color: white;
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+   }
+   .globe{
+    height:34px;
+    width:66px;
+    background-color:transparent;
+    color: white;
+    border-radius: 17px;
+    border: none;
+    margin-left: 650px;
+    cursor: pointer;
+    font-weight: 600;
+   }
+   .help{
+    height:34px;
+    width:54px;
+    background-color:transparent;
+    color: white;
+    border-radius:17px;
+    border: none;
+    margin-left: -2px;
+    cursor: pointer;
+    font-weight: 600;
+   }
+   .login{
+    height:34px;
+    width:63px;
+    background-color:transparent;
+    color: white;
+    border-radius: 17px;
+    border: none;
+    margin-left: -2px;
+    cursor: pointer;
+    font-weight: 600;
+   }
+   .signup{
+    height:34px;
+    width:73px;
+    background-color:#ffffff;
+    color:black;
+    border-radius:17px;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+    font-weight: 600;
+   }
+   .signup:hover{
+    background-color: #f3f3f3;
+   }
+   body{
+    background-color: rgb(255 255 255);
+   }
+   .banner1{
+    height:704px;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+   .leftdiv{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+   }
+   .rightdiv{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+   }
+   h1{
+    font-size: 50px;
+   }
+   .car{
+    display: flex;
+    height:40px;
+    width:120px;
+    font-size: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+   }
+   .package{
+    width: 300px;
+    height:16px;
+    font-size: 16px;
+   }
+   .pickup{
+    position: relative;
+    width:360px;
+    height:44px;
+    display: flex;
+    justify-content:row;
+    align-items: center;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding-left: 8px;
+    background-color:#f3f3f3 ;
+   }
+   .line{
+    position: absolute;
+    bottom: -30px;
+    left:12px;
+   }
+   .pickup input{
+    margin-left: 18px;
+
+   }
+   .pickup button{
+    margin-left: 115px;
+   }
+   .list{
+    height: 44px;
+    width:44px;
+    border: transparent;
+   }
+   .firstinp{
+    border: transparent;
+   }
+   .dropoff{
+    height:44px;
+    width:360px;
+    font-size:9px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    margin-top: 20px;
+    background-color:#f3f3f3 ;
+   }
+   .dropoff input {
+    margin-left: 20px;
+    background-color:#f3f3f3 ;
+    border: transparent;
+   }
+ 
+   .todaydiv{
+    height:44px;
+    width:360px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:6px;
+    margin-top: 20px;
+   }
+   .today{
+    border-radius: 4px;
+    font-size: 16px;
+    display: flex;
+    gap:12px;
+    align-items: center;
+    padding-left:10px;
+    background-color:#f3f3f3 ;
+    cursor: pointer;
+   }
+   .inpcal{
+    width:80px;
+    border: transparent;
+   }
+   .inp{
+    width: 80px;
+    border: transparent;
+   }
+   .twotoday{
+    font-size: 16px;
+   }
+   .downbutt{
+    border: transparent;
+   }
+   .seeprices{
+    width:128px;
+    height:48px;
+    border-radius: 6px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+   }
+   .now{
+    background-color:#f3f3f3 ;
+    border-radius: 4px;
+    font-size: 16px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+   }
+   p{
+    padding-bottom: 30px;
+   }
+   .banner2{
+    height:386px;
+    width: 100%;
+    display: flex;
+   }
+.co-div{
+    height: 386px;
+    width:1280px;
+    color: black;
+}
+.co-text{
+    height: 258px;
+    width:1152px;
+    margin-top: 68px;
+    margin-left:200px;
+}
+.suggest{
+    font-size: 44px;
+    font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.picture{
+    height:178px;
+    width:1152px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:18px;
+}
+.carpict{
+    height:160px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+}
+.timepict{
+    height:160px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+
+}
+.packpict{
+    height:160px;
+    border-radius: 8px;
+    background-color: #f3f3f3;
+}
+.picdetail{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 18px;
+    height:36px;
+    width:70px;
+    border:none;
+    margin-left:30px;
+    margin-top:-20px;
+}
+.carimglogo{
+    height:128px;
+    width:128px;
+    background-image: url(car.png);
+    background-size: cover;
+    margin-left: 250px;
+    margin-top:-100px;
+}
+.clock{
+    height:128px;
+    width:128px;
+    background-image: url(reserve_clock.png);
+    background-size: cover;
+    margin-left: 250px;
+    margin-top:-100px;
+    
+}
+.packon{
+    height:128px;
+    width:128px;
+    background-image: url(connect.png);
+    background-size: cover;
+    margin-left: 250px;
+    margin-top:-100px; 
+}
+.ridespan{
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+.rees{
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 20px;
+    
+}
+.packi{
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+.timepict p{
+    padding-left: 30px;
+}
+.packpict p{
+    padding-left:30px ;
+}
+.carpict p{
+    padding-left:30px ;
+}
+.picture button:hover{
+    background-color:#f3f3f3 ;
+}
+.banner3{
+    height: 686px;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.banner3img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.illustra{
+    background-image: url(earner-illustra.webp);
+    background-size: cover;
+    width: 558px;
+    height: 558px;
+    margin-left: 150px;
+}
+.banner3text h1{
+    font-family: sans-serif;
+}
+.banner3text p{
+    font-family: sans-serif;
+    font-size:16px;
+}.banner3text button{
+    height: 48px;
+    width:135px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+.banner3text span{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: underline #f3f3f3;
+    margin-left: 20px;
+}
+.banner3text span:hover{
+    text-decoration: underline black;  
+}
+.banner3 .banner3text{
+    padding-left: 200px;
+    padding-top: 200px;
+
+}
+.banner4{
+    height: 686px;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.banner4img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustra1{
+    background-image: url(u4b-square.webp);
+    background-size: cover;
+    width: 558px;
+    height: 558px;
+    margin-left: 30px;
+}
+.banner4text h1{
+    font-family: sans-serif;
+}
+.banner4text p{
+    font-family: sans-serif;
+    font-size:16px;
+}.banner4text button{
+    height: 48px;
+    width:135px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+.banner4text span{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: underline #f3f3f3;
+    margin-left: 20px;
+}
+.banner4text span:hover{
+    text-decoration: underline black;  
+}
+.banner4 .banner4text{
+    padding-left: 200px;
+    padding-top: 200px;
+
+}
+.banner5{
+    height: 686px;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.banner5img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustra2{
+    background-image: url(fleet-management.webp);
+    background-size: cover;
+    width: 558px;
+    height: 558px;
+    margin-left: 150px;
+}
+.banner5text h1{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.banner5text p{
+    font-family: sans-serif;
+    font-size:16px;
+}.banner5text button{
+    height: 48px;
+    width:135px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+.banner5 .banner5text{
+    padding-left: 70px;
+    padding-top: 200px;
+}
+.qr{
+    height:406px;
+    width:100%;
+    padding-top: 80px;
+}
+.scannercode{
+    height:278px;
+    width:1152px;
+    background-color: #f3f3f3;
+    margin-left: 15%;
+}
+.scannercode h1{
+    font-size: 36px;
+    font-family: sans-serif;
+}
+.scan1{
+    height:198px;
+    width:1152px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    
+}
+.qrfirst{
+    height:198px;
+    width:558px;
+    display: flex;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.qrsecond{    
+    height:198px;
+    width:558px;
+    display: flex;
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+.qrr{
+    height:150px;
+    width:150px;
+    background-image:url(QR_https___t.uber.com_download-driver-app.png) ;
+    background-size: cover;
+    margin-left:25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.qrfirst h2{
+    font-size: 22px;
+    padding-top: 70px;
+    padding-left:4px;
+}
+.qrfirst span{
+   font-size: 16px;
+}
+.qrfirst button{
+    margin-left: 95px;
+    width:30px;
+    font-size: larger;
+    border: none;
+
+}
+.qrr1{
+    height:150px;
+    width:150px;
+    background-image:url(Final-Download-Uber-App.png) ;
+    background-size: cover;
+    margin-left:25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.qrsecond h2{
+    font-size: 22px;
+    padding-top: 70px;
+    padding-left:4px;
+}
+.qrsecond span{
+   font-size: 16px;
+}
+.qrsecond button{
+    margin-left: 95px;
+    width:30px;
+    font-size: larger;
+    border: none;
+
+}
+footer{
+    background-color: rgb(0 0 0);
+    color: white;
+    height:917px;
+    width:100%;
+}
+.scannercode button:hover{
+    background-color: #f3f3f3;
+}
+.lastlog{
+    height:150px;
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.lastlogo{
+    background-image: url(uber-new-logo\ \(2\).jpg);
+    background-size: cover;
+    width:120px;
+    height:60px;
+    margin-left: 104px;
+}
+.foottext{
+    height:67px;
+    width:100%;
+}
+.foottext button{
+    height:65px;
+    width:158px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 106px;
+    border:none;
+    background-color: #000000;
+    color: #f3f3f3;
+    cursor: pointer;
+}
+.foottext button:hover{
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+ 
+}
+.lotext{
+    height:296px;
+    width:100%;
+}
+.partition{
+    width:1152px;
+    height:px;
+    margin-left: 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:30px;
+}
+.firstpro{
+    padding:54px;
+}
+.secondpro{
+    padding: 54px;
+}
+.thirdpro{
+    padding:54px;
+}
+.fourthpro{
+    padding: 54px;
+}
+.sociallogo{
+    height:120px;
+    width: 100%;
+}
+.logoos{
+    height:72px;
+    width:100%;
+    display: flex;
+}
+.iconicicon{
+    height:50px;
+    width:500px;
+    margin-left: 180px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fb{
+    height:20px;
+    width:20px;
+    cursor: pointer;
+}
+.twit{
+    height:20px;
+    width:20px;
+    cursor: pointer;
+}
+.you{
+    height:20px;
+    width:20px;
+    cursor: pointer;
+}
+.in{
+    height:20px;
+    width:20px;
+    cursor: pointer;
+}
+.inst{
+    height:20px;
+    width:20px;
+    cursor: pointer;
+}
+.iconicbutton{
+    height:50px;
+    width:230px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+    cursor: pointer;
+
+}
+.lang{
+    height:36px;
+    width: 97px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.loc{
+    height:36px;
+    width: 100px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.playstore{
+    height:38px;
+    width:100%;
+    display: flex;
+    cursor: pointer;
+}
+.playicon{
+    height:38px;
+    width:128px;
+    background-image: url(app-store-google-4d63c31a3e.svg);
+    background-size: cover;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.apple{
+    height:38px;
+    width:128px;
+    background-image: url(app-store-apple-f1f919205b.svg);
+    background-size:cover;
+    margin-left: 67px;
+    cursor: pointer;
+}
+.endtext{
+    height:30px;
+    width:100%;
+    display: flex;
+    margin-top: 40px;
+}
+.leftendone{
+    height:30px;
+    width:250px;
+    margin-left: 45px;
+}
+.rightendone{
+    height:30px;
+    width:500px;
+    margin-left: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.movebutton{
+    
+    height:48px;
+    width:48px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 1400px;
+    position: fixed;
+    bottom:20px;
+    cursor: pointer;
+}.button-blink{
+    width: 100%;
+    height: 10px;
+    
+    position: relative;
+}
+.btn-blink{
+    position: absolute;
+    right: 75px;
+    top: 35px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: white;
+    color: #000000;
+    opacity: 0;
+    
+}
+.button-blink:hover .btn-blink{
+    
+    right: 60px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: white;
+    color: #000000;
+    height: 50px;
+    opacity: 1;
+    pointer-events: none;
+  
+}
+
