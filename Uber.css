@@ -713,13 +713,13 @@ footer{
     cursor: pointer;
 }
 .playstore{
-    height:38px;
+    height:58px;
     width:100%;
     display: flex;
     cursor: pointer;
 }
 .playicon{
-    height:38px;
+    height:58px;
     width:128px;
     background-image: url(app-store-google-4d63c31a3e.svg);
     background-size: cover;
